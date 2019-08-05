@@ -46,24 +46,3 @@ nmf = pickle.loads(binary_nmf)
 #nmf.reconstruction_err_
 
 #reconstruction_matrix = np.dot(P, Q)
-
-
-"""        Blockbuster Cateogrization       """
-
-
-# determine unique categories in database
-        # genres = list(df['genres'].unique())
-        # import re
-        # re.sub("\|", " ", genres)
-# write program that determines users favorite genres
-        # determine movieIds user liked
-        # determine genres of said movieIds
-        # sum.rating per genres
-        # highest numbers == favorite genre
-# make new matrix with userId ; Genres; ratingsum for movies in genre
-        # 2 highest sums == 2 favorite user genres
-# write program that finds highest rated movies in genres
-        # hierachial index movie genre -> movieId -> 5 highest rated in genres
-
-# Use supervised or unsupervised model!! (Because data science)
-# find blockbuster or highest rated movies in favorite 2 genres
